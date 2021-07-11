@@ -14,7 +14,7 @@ class ColorSensor {
 private:
   int delay_ms = 5;
   int clear_min = 50; /* minimum intensity for rgb conversion */
-  float clear_base = 1000.0; /* base intensity for rgb conversion */
+  float clear_base = 755.0; /* base intensity for rgb conversion */
   Adafruit_APDS9960 sensor; /* using the color sensor only */
 public:
   /* white reference color value to normalized to (255,255,255) */
